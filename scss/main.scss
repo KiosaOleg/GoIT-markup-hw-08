@@ -1,0 +1,47 @@
+// @import "./utils/mixin";
+@import "./utils/variables";
+
+@import "./utils/visually-hidden";
+@import "./base/reset";
+
+@import "./components/button";
+@import "./components/button-filter";
+@import "./components/section__title";
+@import "./components/social";
+@import "./components/contact-form";
+@import "./components/logo";
+@import "./components/icon";
+@import "./components/close-btn";
+@import "./components/modal/backdrop";
+@import "./components/modal/modal";
+@import "./components/modal/form";
+@import "./components/modal/policy";
+@import "./components/mobile-menu";
+
+
+
+// header
+@import "./layout/studio/header";
+
+@import "./layout/studio/contact";
+
+// main
+
+@import "./layout/studio/hero";
+@import "./layout/studio/featers";
+
+@import "./layout/studio/work";
+@import "./layout/studio/team";
+@import "./layout/studio/person";
+
+@import "./layout/studio/client";
+
+// Footer
+@import "./layout/studio/footer";
+
+
+// Portfolio
+
+@import "./layout/portfolio/gallery";
+
+// Modalka

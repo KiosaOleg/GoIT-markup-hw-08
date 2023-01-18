@@ -1,0 +1,36 @@
+.logo {
+    @media (max-width:767px) {
+        margin-right: 0;
+        padding: 16px 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    }
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-footer {
+    @media (max-width:767px) {
+        margin-right: 0;
+    }
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-white-color);
+}
