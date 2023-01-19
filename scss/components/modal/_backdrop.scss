@@ -16,4 +16,8 @@
         pointer-events: none;
         visibility: hidden;
     }
+
+    @media (max-width:1200px) {
+        padding: 0 15px;
+    }
 }

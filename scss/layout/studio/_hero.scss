@@ -77,10 +77,11 @@
 }
 
 .hero-cap {
-    @media (max-width:767px) {
+    @media (max-width:1199px) {
         font-size: 26px;
         line-height: 1.62
     }
+    
     margin-bottom: 30px;
 
     font-family: "Roboto";
@@ -102,7 +103,12 @@
     text-align: center;
     color: var(--primary-white-color);
     padding-top: 200px;
+    padding-bottom: 200px;padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
+    @media (max-width:1199px) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
 }
