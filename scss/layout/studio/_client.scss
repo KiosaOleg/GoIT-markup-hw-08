@@ -25,17 +25,15 @@
     // padding-bottom: 94px;
 
     &__item {
-        @media screen and (max-width:767px) {
         height: 92px;
-        // margin-right: 0;
-        }
+
         @media screen and (min-width: 768px) and (max-width: 1199px) {
             width: 226px;
         }
         @media screen and (min-width:1200px) {
             margin-right: 30px;
             width: 170px;
-            height: 92px;
+            // height: 92px;
             &:last-child {
             margin-right: 0;
             }

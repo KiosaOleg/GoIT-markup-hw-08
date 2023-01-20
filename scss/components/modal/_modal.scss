@@ -12,6 +12,9 @@
     @media (max-width:1200px) {
         max-width: 450px;
     }
+    @media (min-width:1200px) {
+        width: 528px;
+    }
 
     &__title {
         margin-bottom: 12px;
@@ -24,6 +27,10 @@
         letter-spacing: 0.03em;
 
         color: var(--title-text-color);
+
+        @media (max-width:1200px) {
+           line-height: 30px;
+        }
     }
     
 }

@@ -505,6 +505,11 @@ img {
     max-width: 450px;
   }
 }
+@media (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+}
 .modal__title {
   margin-bottom: 12px;
   font-family: "Roboto";
@@ -515,6 +520,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+@media (max-width: 1200px) {
+  .modal__title {
+    line-height: 30px;
+  }
 }
 
 .form {
@@ -636,6 +646,12 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+@media (max-width: 1200px) {
+  .label-policy {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 .label-policy__checkbox {
   position: absolute;
@@ -1208,6 +1224,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 0;
   }
 }
 
@@ -1376,10 +1393,8 @@ img {
             align-items: center;
   }
 }
-@media screen and (max-width: 767px) {
-  .client-list__item {
-    height: 92px;
-  }
+.client-list__item {
+  height: 92px;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .client-list__item {
@@ -1390,7 +1405,6 @@ img {
   .client-list__item {
     margin-right: 30px;
     width: 170px;
-    height: 92px;
   }
   .client-list__item:last-child {
     margin-right: 0;
@@ -1493,7 +1507,6 @@ img {
 @media screen and (max-width: 1199px) {
   .footer-form {
     text-align: center;
-    margin-top: 60px;
   }
 }
 
